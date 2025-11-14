@@ -16,16 +16,16 @@ const getMarkdownFiles = async () => {
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
     srcDir: "../src",
+    title: "myNote",
+    description: "A VitePress Site",
     async buildEnd() {
         const files = await getMarkdownFiles();
         console.table(files);
     },
 
-    title: "myNote",
-    description: "A VitePress Site",
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-    
+        base: "/Note/",
         nav: [
             { text: "Home", link: "/" },
             { text: "Examples", link: "/markdown-examples" },
@@ -51,15 +51,15 @@ export default defineConfig({
         //             { text: "Item B", link: "/item-b" },
         //         ],
         //     },
-            
+
         // ],
         sidebar: sidebar,
 
         /* 得益于 minisearch，VitePress 支持使用浏览器内索引进行模糊全文搜索,开启此配置就会启用 */
         search: {
-            provider: 'local'
+            provider: "local",
         },
         socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
     },
-    srcExclude: ['**/README.md', '**/TODO.md','src/Excalidraw/**']
+    srcExclude: ["**/README.md", "**/TODO.md", "src/Excalidraw/**"],
 });
