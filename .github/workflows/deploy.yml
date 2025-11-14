@@ -6,6 +6,9 @@ on:
   push:
     branches: [main]
 
+permissions:
+    contents: write
+
 # 定义一个名为 "build-and-deploy" 的作业
 jobs:
   build-and-deploy:
