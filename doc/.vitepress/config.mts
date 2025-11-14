@@ -18,6 +18,7 @@ export default defineConfig({
     srcDir: "../src",
     title: "myNote",
     description: "A VitePress Site",
+    base: "/Note/",
     async buildEnd() {
         const files = await getMarkdownFiles();
         console.table(files);
@@ -25,7 +26,6 @@ export default defineConfig({
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
-        base: "/Note/",
         nav: [
             { text: "Home", link: "/" },
             { text: "Examples", link: "/markdown-examples" },
