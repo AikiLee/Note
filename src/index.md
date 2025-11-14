@@ -10,16 +10,13 @@ hero:
     - theme: brand
       text: Markdown Examples
       link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 个人笔记
+    details: 记录学习过程中的笔记
+  - title: 开发心得
+    details: 记录开发过程中的心得
+  - title: 阅读心得
+    details: 记录对各种书籍的阅读心得
 ---
 
