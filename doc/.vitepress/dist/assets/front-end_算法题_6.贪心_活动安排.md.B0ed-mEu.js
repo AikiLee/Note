@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./chunks/framework.W5ZyBR1w.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/算法题/6.贪心/活动安排.md","filePath":"front-end/算法题/6.贪心/活动安排.md"}'),r={name:"front-end/算法题/6.贪心/活动安排.md"};function a(o,s,c,_,d,f){return n(),t("div")}const m=e(r,[["render",a]]);export{i as __pageData,m as default};
