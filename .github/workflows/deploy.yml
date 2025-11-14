@@ -8,56 +8,46 @@ on:
 
 permissions:
     contents: write
+    pages: write
+    id-token: write
 
 # 定义一个名为 "build-and-deploy" 的作业
 jobs:
-  build-and-deploy:
-    # 运行环境：使用最新的 Ubuntu 系统
+  build:
     runs-on: ubuntu-latest
     steps:
-      # 第一步：检出代码
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
         with:
-          fetch-depth: 0
-
-      # 第二步：设置 pnpm 包管理器
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 8
-
-      # 第三步：设置 Node.js 环境
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+          fetch-depth: 0 # 如果未启用 lastUpdated，则不需要
+      # - uses: pnpm/action-setup@v4 # 如果使用 pnpm，请取消此区域注释
+      #   with:
+      #     version: 9
+      # - uses: oven-sh/setup-bun@v1 # 如果使用 Bun，请取消注释
+      - name: Setup Node
+        uses: actions/setup-node@v6
         with:
           node-version: 22
-          cache: 'pnpm'
-
-      # 第四步：安装项目依赖
+          cache: npm # 或 pnpm / yarn
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: pnpm install
-
-      # 第五步：构建 VitePress 站点
-      - name: Build VitePress site
-        run: pnpm run docs:build
-
-    # 新增：创建 .nojekyll 文件以禁用 Jekyll
-      - name: Create .nojekyll file
-        run: touch doc/.vitepress/dist/.nojekyll
-    
-      # 新增：调试步骤，列出构建后的文件
-      - name: List files in the repository
-        run: ls -aR
-
-      # 第六步：部署到 GitHub Pages
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v3
+        run: npm ci # 或 pnpm install / yarn install / bun install
+      - name: Build with VitePress
+        run: npm run docs:build # 或 pnpm docs:build / yarn docs:build / bun run docs:build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          # 部署到 gh-pages 分支
-          target_branch: gh-pages
-          # 构建输出目录
-          build_dir: doc/.vitepress/dist
-        env:
-          # 使用 GitHub 提供的令牌进行授权
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: docs/.vitepress/dist
+            # 部署工作
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
