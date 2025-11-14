@@ -1,0 +1,52 @@
+# 工作流名称
+name: Deploy VitePress Site
+
+# 触发条件：当代码推送到 main 分支时触发
+on:
+  push:
+    branches: [main]
+
+# 定义一个名为 "build-and-deploy" 的作业
+jobs:
+  build-and-deploy:
+    # 运行环境：使用最新的 Ubuntu 系统
+    runs-on: ubuntu-latest
+    steps:
+      # 第一步：检出代码
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      # 第二步：设置 pnpm 包管理器
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      # 第三步：设置 Node.js 环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'pnpm'
+
+      # 第四步：安装项目依赖
+      - name: Install dependencies
+        run: pnpm install
+
+      # 第五步：构建 VitePress 站点
+      - name: Build VitePress site
+        run: pnpm run docs:build
+
+      # 第六步：部署到 GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          # 部署到 gh-pages 分支
+          target_branch: gh-pages
+          # 构建输出目录
+          build_dir: doc/.vitepress/dist
+        env:
+          # 使用 GitHub 提供的令牌进行授权
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
