@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as n}from"./chunks/framework.W5ZyBR1w.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/组件库开发/1.项目环境搭建.md","filePath":"front-end/组件库开发/1.项目环境搭建.md"}'),r={name:"front-end/组件库开发/1.项目环境搭建.md"};function a(o,_,s,c,d,f){return n(),t("div")}const m=e(r,[["render",a]]);export{i as __pageData,m as default};
