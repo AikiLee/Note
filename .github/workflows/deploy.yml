@@ -44,7 +44,7 @@ jobs:
 
       # 新增：调试步骤，列出构建后的文件
       - name: List files in the repository
-        run: ls -R
+        run: ls -aR
 
       # 第六步：部署到 GitHub Pages
       - name: Deploy to GitHub Pages

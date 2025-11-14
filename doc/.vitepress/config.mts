@@ -5,13 +5,13 @@ import fg from "fast-glob";
 import path from "path";
 import { sidebar } from "./sidebar";
 // 获取所有 Markdown 文件路径
-const getMarkdownFiles = async () => {
-    const files = await fg(["../src/**/*.md"], { cwd: path.resolve(__dirname, "../src") });
-    return files.map((file) => ({
-        filePath: file,
-        routePath: `/${file.replace(/\.md$/, "").replace(/\\/g, "/")}`,
-    }));
-};
+// const getMarkdownFiles = async () => {
+//     const files = await fg(["../src/**/*.md"], { cwd: path.resolve(__dirname, "../src") });
+//     return files.map((file) => ({
+//         filePath: file,
+//         routePath: `/${file.replace(/\.md$/, "").replace(/\\/g, "/")}`,
+//     }));
+// };
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -19,10 +19,11 @@ export default defineConfig({
     title: "myNote",
     description: "A VitePress Site",
     base: "/Note/",
-    async buildEnd() {
-        const files = await getMarkdownFiles();
-        console.table(files);
-    },
+    // 停止触发构建完成时的钩子
+    // async buildEnd() {
+    //     const files = await getMarkdownFiles();
+    //     console.table(files);
+    // },
 
     themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
