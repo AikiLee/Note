@@ -1,0 +1,241 @@
+{
+  "main": {
+    "id": "f607e6b7ad27e371",
+    "type": "split",
+    "children": [
+      {
+        "id": "92f63c6cf814d758",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0a0f37af706df22",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "src/ai/google/gemini/gemini 使用.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of gemini 使用"
+            }
+          },
+          {
+            "id": "da73115924a7caf7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "src/ai/google/gemini/gemini 使用.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "gemini 使用"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7bfe98ce5fa0737e",
+    "type": "split",
+    "children": [
+      {
+        "id": "48a7d0bc9e9cc37e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "eeb659f14c1f0ab3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "64579ab032631efe",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "a2b4d05761fd9e68",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 283.5
+  },
+  "right": {
+    "id": "498958a29d571e50",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d5b406f777fe4f2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "55d34bc259a3e948",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "1.双指针(包含滑动窗口和二分查找)/4.快慢指针.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 4.快慢指针"
+            }
+          },
+          {
+            "id": "8dba0bbab6ebd7b1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "1.双指针(包含滑动窗口和二分查找)/4.快慢指针.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 4.快慢指针"
+            }
+          },
+          {
+            "id": "b9b6c09e4ddf0991",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ba81cd92a7018a22",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "1.双指针(包含滑动窗口和二分查找)/4.快慢指针.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of 4.快慢指针"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "github-sync:Sync with Remote": false,
+      "digitalgarden:Digital Garden Publication Center": false
+    }
+  },
+  "active": "da73115924a7caf7",
+  "lastOpenFiles": [
+    "src/devops/tiny_cli/使用python实现一个简单cli.md",
+    "src/ai/google/gemini/gemini 使用.md",
+    "src/devops/tiny_cli",
+    "src/test/python/engineering.md",
+    "src/ai/google/gemini",
+    "src/ai/google",
+    "src/ai",
+    "src/devops/githubpages/1.vitepress+githubactions.md",
+    "src/test/python",
+    "src/devops/githubpages/roadmap.md",
+    "src/front-end/test/3.vitepress.md",
+    "src/devops/githubpages",
+    "src/devops/roadmap.md",
+    "src/devops",
+    "src/front-end/algorithm/6.greedy/活动安排.md",
+    "src/front-end/algorithm/6.greedy/找零钱.md",
+    "src/front-end/algorithm/6.greedy",
+    "src/front-end/algorithm/3.traceback",
+    "src/front-end/componentlibrary/prebuild/3.md",
+    "src/front-end/componentlibrary/prebuild/2.项目搭建.md",
+    "src/front-end/componentlibrary/prebuild/1.需求分析.md",
+    "src/front-end/componentlibrary/prebuild",
+    "src/front-end/componentlibrary/componentLib/3.md",
+    "src/front-end/componentlibrary/componentLib/2.项目搭建.md",
+    "src/front-end/componentlibrary/componentLib/1.需求分析.md",
+    "src/front-end/componentlibrary/4.打包优化.md",
+    "src/front-end/componentlibrary/3.打包,分包,发布.md",
+    "src/front-end/componentlibrary/2.基本组件实现.md",
+    "src/front-end/componentlibrary/1.项目环境搭建.md",
+    "src/front-end/algorithm/tech/4.数学原理.md",
+    "src/front-end/algorithm/tech/3.Heap.md",
+    "src/front-end/algorithm/tech/2.单调栈，队列.md",
+    "src/front-end/algorithm/tech/1.前缀和.md",
+    "src/front-end/algorithm/string/Untitled 1.md",
+    "src/front-end/algorithm/string/2.字符串定位.md",
+    "src/front-end/algorithm/string/1.字符串截取.md",
+    "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-9.jpg",
+    "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-8.jpg",
+    "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-7.jpg",
+    "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-6.jpg",
+    "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-5.jpg",
+    "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-4.jpg",
+    "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-3.jpg",
+    "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-2.jpg",
+    "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-12.jpg",
+    "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-10.jpg",
+    "Untitled.canvas"
+  ]
+}
