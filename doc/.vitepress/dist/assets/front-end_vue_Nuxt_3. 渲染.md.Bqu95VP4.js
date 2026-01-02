@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as n}from"./chunks/framework.C2T-hxF6.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"front-end/vue/Nuxt/3. 渲染.md","filePath":"front-end/vue/Nuxt/3. 渲染.md"}'),r={name:"front-end/vue/Nuxt/3. 渲染.md"};function a(o,s,_,c,d,f){return n(),t("div")}const u=e(r,[["render",a]]);export{i as __pageData,u as default};
