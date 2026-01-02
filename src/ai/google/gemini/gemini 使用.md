@@ -1,5 +1,7 @@
 ## 1. 获取gemini pro学生优惠
 
+参考文章 https://zhuanlan.zhihu.com/p/1980353975116120391
+
 主要分三步：
 
 - 准备一个google账号,然后进入页面：[google one页面](https://one.google.com/ai-student?g1_landing_page=75)
@@ -10,7 +12,7 @@
 
 在telegram需要关注机器人账号：@sheeridver_bot , 然后添加机器人
 
-先/checkin看是否有足够的钱
+先/checkin看是否有足够的积分（一般正常登录会送积分）
 使用/verify，再传如google one的表单页面，正常情况下一段时间之后就可以通过验证
 通过验证之后就填写信用卡信息就行了
 
@@ -31,6 +33,9 @@
 [参考文章](https://www.xmsumi.com/detail/1144)
 ## 3. antigravity
 
+基本操作请看这里：
 https://kerrynotes.com/google-antigravity-cannot-log-in/
 
-卡在登录这一步，不是常规报错，后续再看吧
+`12/1`卡在登录这一步，不是常规报错，后续再看吧
+
+`12/10`问题已解决，账号归属地限制，具体请看[[google账号归属地变更]]

@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a}from"./chunks/framework.C2T-hxF6.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"test/python/泛型.md","filePath":"test/python/泛型.md"}'),o={name:"test/python/泛型.md"};function s(n,r,c,p,_,d){return a(),e("div")}const f=t(o,[["render",s]]);export{m as __pageData,f as default};
