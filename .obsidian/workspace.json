@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "92f63c6cf814d758",
+        "id": "425370d38e3c508b",
         "type": "tabs",
         "children": [
           {
-            "id": "da73115924a7caf7",
+            "id": "e7c6a73a7abd1ce6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "src/english/daily_article/251223_Computing Machinery.md",
+                "file": "src/test/python/oop.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "251223_Computing Machinery"
+              "title": "oop"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 258.5
+    "width": 200
   },
   "right": {
     "id": "498958a29d571e50",
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "src/devops/tiny_cli/gun_shell_doc/basic_shell_features/redirection.md",
+                "file": "src/test/python/oop.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of redirection"
+              "title": "Outline of oop"
             }
           },
           {
@@ -162,11 +162,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 300.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -178,47 +178,51 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "github-sync:Sync with Remote": false
+      "github-sync:Sync with Remote": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "da73115924a7caf7",
+  "active": "e7c6a73a7abd1ce6",
   "lastOpenFiles": [
-    "2022.10.22精读 韩国年轻人回村务农.pdf",
-    "src/english/daily_article/251223_Computing Machinery.md",
+    "src/test/python/socket.md",
+    "src/devops/proxy/1.系统代理和tun.md",
+    "src/devops/proxy/2.问题记录.md",
+    "src/test/python/oop.md",
+    "src/test/python/魔术方法.md",
+    "src/test/python/泛型.md",
+    "src/test/python/迭代器.md",
+    "src/test/1.roadmap.md",
+    "src/test/python/engineering.md",
+    "src/test/python/os相关.md",
+    "src/test/python/模块.md",
     "turing.pdf",
+    "src/ai/learn_llm/core_paper/Computing machine and intelligence.md",
+    "src/english/daily_article/251223_Computing Machinery.md",
     "src/english/daily_article/251221_prime_minister.md",
+    "src/backEnd/dede.md",
     "src/ai/learn_llm/daily_feelings/251221如何在ai时代生存.md",
+    "src/ai/learn_llm/core_paper",
+    "src/front-end/algorithm/string/3.状态机.md",
+    "src/front-end/algorithm/1.doublePointer/二分法.md",
+    "src/front-end/algorithm/1.doublePointer/4.快慢指针.md",
+    "src/front-end/algorithm/1.doublePointer/3.反转链表.md",
+    "src/front-end/algorithm/1.doublePointer/2.滑动窗口.md",
+    "src/front-end/algorithm/1.doublePointer/1.相向双指针.md",
+    "src/ai/google/gemini/gemini 使用.md",
+    "src/ai/google/gemini/提示提编写规范.md",
+    "src/ai/google/google账号归属地变更.md",
+    "2022.10.22精读 韩国年轻人回村务农.pdf",
     "src/devops/tiny_cli/gun_shell_doc/basic_shell_features/redirection.md",
     "src/ai/learn_llm/daily_feelings",
-    "Users/lee/Downloads/enhandic.eudic/Notation (zh).md",
     "Users/lee/Downloads/enhandic.eudic",
     "Users/lee/Downloads",
     "Users/lee",
     "Users",
-    "src/devops/tiny_cli/gun_shell_doc/basic_shell_features/pipeline.md",
-    "src/devops/tiny_cli/gun_shell_doc/intro.md",
     "src/devops/tiny_cli/gun_shell_doc/basic_shell_features",
-    "src/devops/tiny_cli/gun_shell_doc/redirections.md",
     "src/devops/tiny_cli/gun_shell_doc",
-    "src/test/codecrafter/python_shell/3.quoting.md",
-    "src/english/daily_article",
-    "src/test/codecrafter/python_shell/1.builtin_command.md",
-    "src/test/codecrafter/python_shell/2. nav.md",
-    "src/test/codecrafter/Untitled.md",
-    "src/ai/google/gemini/提示提编写规范.md",
-    "src/ai/google/google账号归属地变更.md",
-    "src/test/python/模块.md",
-    "src/test/python/迭代器.md",
-    "src/test/python/魔法函数.md",
-    "src/test/python/os相关.md",
-    "src/test/python/engineering.md",
     "Pasted image 20251210155137.png",
-    "src/front-end/algorithm/1.doublePointer/二分法.md",
-    "src/front-end/algorithm/1.doublePointer/1.相向双指针.md",
-    "src/front-end/algorithm/1.前端常用.md",
-    "src/backEnd/dede.md",
-    "src/devops/proxy/2.问题记录.md",
-    "src/devops/proxy/1.系统代理和tun.md",
     "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-9.jpg",
     "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-8.jpg",
     "src/front-end/css/html-css-study/starter/07-Omnifood-Desktop/content/img/gallery/gallery-7.jpg",

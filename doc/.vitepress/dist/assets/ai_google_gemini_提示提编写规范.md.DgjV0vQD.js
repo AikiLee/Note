@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.C2T-hxF6.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"ai/google/gemini/提示提编写规范.md","filePath":"ai/google/gemini/提示提编写规范.md"}'),o={name:"ai/google/gemini/提示提编写规范.md"};function i(n,r,_,s,c,m){return a(),t("div")}const g=e(o,[["render",i]]);export{d as __pageData,g as default};

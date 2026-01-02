@@ -4,6 +4,7 @@ import { resolve } from "node:path";
 import fg from "fast-glob";
 import path from "path";
 import { sidebar } from "./sidebar";
+import markdownItFootnote from "markdown-it-footnote";
 // 获取所有 Markdown 文件路径
 // const getMarkdownFiles = async () => {
 //     const files = await fg(["../src/**/*.md"], { cwd: path.resolve(__dirname, "../src") });
@@ -61,6 +62,11 @@ export default defineConfig({
             provider: "local",
         },
         socialLinks: [{ icon: "github", link: "https://github.com/vuejs/vitepress" }],
+    },
+    markdown: {
+        config: (md) => {
+            md.use(markdownItFootnote);
+        }
     },
     srcExclude: ["**/README.md", "**/TODO.md", "src/Excalidraw/**"],
 });

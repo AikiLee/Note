@@ -2,5 +2,6 @@
   "obsidian-excalidraw-plugin",
   "github-sync",
   "prettier",
-  "obsidian-dictionary-plugin"
+  "obsidian-dictionary-plugin",
+  "pdf-plus"
 ]

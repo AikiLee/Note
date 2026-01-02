@@ -1,24 +1,27 @@
 {
-  "name": "note",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev doc",
-    "docs:build": "vitepress build doc",
-    "docs:preview": "vitepress preview doc"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "@types/node": "^24.9.2",
-    "vitepress": "2.0.0-alpha.12"
-  },
-  "dependencies": {
-    "fast-glob": "^3.3.3"
-  }
+    "name": "note",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "directories": {
+        "doc": "docs"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "docs:dev": "vitepress dev doc",
+        "docs:build": "vitepress build doc",
+        "docs:preview": "vitepress preview doc",
+        "docs: clean": "rm -rf doc/.vitepress/dist"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/markdown-it-footnote": "^3.0.4",
+        "@types/node": "^24.9.2",
+        "markdown-it-footnote": "^4.0.0",
+        "vitepress": "2.0.0-alpha.12"
+    },
+    "dependencies": {
+        "fast-glob": "^3.3.3"
+    }
 }
